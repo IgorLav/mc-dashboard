@@ -4,7 +4,7 @@ import navScheme from './nav';
 import './styles.scss';
 
 const renderItems = navScheme.nav.map(item => (
-    <NavLink to={item.path} className="main-nav-link">
+    <NavLink to={item.path} className="main-nav-link" key={item.name}>
         <i className={`icon icon-${item.icon}`}/>
         {item.name}
     </NavLink>

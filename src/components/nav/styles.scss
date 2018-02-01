@@ -9,8 +9,28 @@
     color: #fff;
     border-bottom: 1px solid #0b0a10;
 
-    &.active{
+    -webkit-transition: background-color .35s;
+    transition: background-color .35s;
+
+    &:focus,
+    &:hover {
       background-color: $drawer-active-link-bg;
+    }
+
+    &.active{
+      position: relative;
+      background-color: $drawer-active-link-bg;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: $primary-bg;
+        width: 10px;
+        z-index: 1;
+      }
     }
   }
 }
