@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink, Route} from 'react-router-dom';
 import Logo from '../../components/logo/index';
 import bg from '../../assets/img/auth-bg.jpg';
-import './auth-route.scss';
+import './styles.scss';
 
 const authRoute = ({component: Component, ...rest}) => (
     <Route {...rest} render={() => (

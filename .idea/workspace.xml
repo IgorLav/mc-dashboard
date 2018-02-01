@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/css/fontello.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/font/fontello.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/font/fontello.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/font/fontello.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/font/fontello.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/font-icons/font/fontello.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/scss/utils/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/ui-kit/input/input.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/layout/app-layout/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/layout/app-layout/style.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/paths.js" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" afterPath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/utils/_mixins.scss" afterPath="$PROJECT_DIR$/src/assets/scss/components/form/form.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/utils/_typography.scss" afterPath="$PROJECT_DIR$/src/assets/scss/utils/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/utils/_variables.scss" afterPath="$PROJECT_DIR$/src/assets/scss/utils/_variables.scss" />
       <change beforePath="$PROJECT_DIR$/src/components/ui-kit/btn/btn-link.js" afterPath="$PROJECT_DIR$/src/components/ui-kit/btn/btn-link.js" />
       <change beforePath="$PROJECT_DIR$/src/components/ui-kit/btn/btn.js" afterPath="$PROJECT_DIR$/src/components/ui-kit/btn/btn.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/index.js" afterPath="$PROJECT_DIR$/src/components/ui-kit/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/btn/styles.scss" />
       <change beforePath="$PROJECT_DIR$/src/components/ui-kit/input/index.js" afterPath="$PROJECT_DIR$/src/components/ui-kit/input/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/sign-in/index.js" afterPath="$PROJECT_DIR$/src/containers/sign-in/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/sign-up/index.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth-route/auth-route.scss" afterPath="$PROJECT_DIR$/src/layout/auth-route/auth-route.scss" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth-route/index.js" afterPath="$PROJECT_DIR$/src/layout/auth-route/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/input/input.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/input/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/src/layout/app-layout/style.scss" afterPath="$PROJECT_DIR$/src/layout/app-layout/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/src/layout/auth-route/auth-route.scss" afterPath="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/src/layout/auth-route/index.js" afterPath="$PROJECT_DIR$/src/layout/auth-route/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btn.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -89,15 +71,15 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/layout/app-layout/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layout/app-layout/style.scss">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/app-layout/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -116,8 +98,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ui-kit/input/input.scss">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ui-kit/input/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
@@ -286,6 +268,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merkury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merkury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -345,17 +339,26 @@
       <option name="presentableId" value="Default" />
       <updated>1517405366201</updated>
       <workItem from="1517405367955" duration="932000" />
-      <workItem from="1517421038280" duration="22033000" />
+      <workItem from="1517421038280" duration="22740000" />
     </task>
+    <task id="LOCAL-00001" summary="add basic icon font, add styles to UI components, add style to auth page">
+      <created>1517487537478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517487537478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22965000" />
+    <option name="totallyTimeSpent" value="23672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -380,6 +383,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add basic icon font, add styles to UI components, add style to auth page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic icon font, add styles to UI components, add style to auth page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -638,7 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/auth-route/auth-route.scss">
+    <entry file="file://$PROJECT_DIR$/src/layout/auth-route/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
@@ -646,15 +653,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/input/input.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/input/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
@@ -670,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/style.scss">
+    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -680,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/app-layout/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
