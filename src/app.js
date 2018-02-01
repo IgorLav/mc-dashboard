@@ -1,10 +1,10 @@
 import React from 'react';
-import AuthRoute from "./routes/auth-route/index";
+import AuthRoute from "./layout/auth-route/index";
 import SignIn from "./containers/sign-in";
 import SignUp from "./containers/sign-up";
 
-
-import './assets/styles/main.scss';
+import './assets/font-icons/css/fontello.css';
+import './assets/scss/main.scss';
 
 const app = (props) => {
     return (

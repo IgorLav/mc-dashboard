@@ -3,7 +3,7 @@ import './btn.scss';
 
 const btn = (props) => (
     <button
-        className={`btn`}
+        className={`btn ${props.className}`}
         disabled={props.disabled}
         onClick={props.clicked}
     >

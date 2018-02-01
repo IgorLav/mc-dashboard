@@ -1,0 +1,39 @@
+@import "../../../assets/scss/utils/variables";
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 25px;
+
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+
+  border-radius: 24px;
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &.btn-primary {
+    background-color: $primary-bg;
+    color:#fff;
+
+    &:focus,
+    &:hover {
+      background-color: darken($primary-bg, 15%);
+    }
+  }
+
+  &.btn-lg {
+    border-radius: 36px;
+    padding: 25px 50px;
+  }
+}
