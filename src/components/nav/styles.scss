@@ -1,0 +1,16 @@
+@import "../../assets/scss/utils/variables";
+
+.main-nav {
+  &-link {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 35px 50px;
+    color: #fff;
+    border-bottom: 1px solid #0b0a10;
+
+    &.active{
+      background-color: $drawer-active-link-bg;
+    }
+  }
+}

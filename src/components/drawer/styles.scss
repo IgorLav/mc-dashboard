@@ -1,0 +1,11 @@
+@import "../../assets/scss/utils/variables";
+
+.drawer{
+  width: 320px;
+  background-color: $primary-dark-bg;
+  padding: 30px 0;
+
+  .logo {
+    margin: 0 0 30px 40px;
+  }
+}
