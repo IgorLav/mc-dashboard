@@ -1,0 +1,11 @@
+@import "../../assets/scss/utils/variables";
+
+.app-layout{
+  display: flex;
+  background-color: $app-layout-bg;
+  min-height: 100vh;
+
+  .app-page-wrap {
+    flex-grow: 1;
+  }
+}
