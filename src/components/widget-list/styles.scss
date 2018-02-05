@@ -1,0 +1,19 @@
+@import "../../assets/scss/utils/variables";
+
+.widget-list {
+  border: 1px solid $border-color;
+  background-color: #fff;
+
+  &-header {
+    .pill {
+      font-size: 18px;
+      height: 45px;
+      width: 45px;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

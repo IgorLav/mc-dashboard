@@ -1,0 +1,15 @@
+@import "../../../assets/scss/utils/variables";
+
+.widget-list {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+    border-bottom: 1px solid $border-color;
+  }
+
+  &-title {
+    font:700 20px "Roboto";
+  }
+}

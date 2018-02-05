@@ -1,0 +1,11 @@
+//SPACES
+$grid-gap: 30px;
+$col-gap: $grid-gap / 2;
+
+//RESPONSIVE PREFIXES
+
+$lg: "lg";
+$md: "md";
+$sm: "sm";
+$xs: "xs";
+$media-prefixes: (null,$xs,$sm,$md,$lg)

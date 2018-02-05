@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+
+.container {
+  &-fluid {
+    padding-left: $col-gap;
+    padding-right: $col-gap;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -$col-gap;
+  margin-left: -$col-gap;
+}
+
+@each $item in $media-prefixes {
+  @if ($item) {
+    @include breakpoint($item) {
+      @for $index from 1 through 12 {
+        @include col("-#{$item}", $index);
+      }
+    }
+  } @else {
+    @for $index from 1 through 12 {
+      @include col(null, $index);
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+@import "variables";
+
+@mixin col ($slug, $class-index) {
+  .col#{$slug}-#{$class-index} {
+    flex: 0 0 100% / 12 * $class-index;
+    max-width: 100% / 12 * $class-index;
+    padding-left: $col-gap;
+    padding-right: $col-gap;
+  }
+}
+
+/* BREAKPOINTS */
+
+@mixin breakpoint($point) {
+  @if $point == lg {
+    @media (min-width: 75em) {
+      @content ;
+    }
+  } @else if $point == md {
+    @media (min-width: 68em) {
+      @content ;
+    }
+  } @else if $point == sm {
+    @media (min-width: 50em) {
+      @content ;
+    }
+  } @else if $point == xs {
+    @media (max-width: 37.5em) {
+      @content ;
+    }
+  }
+}
