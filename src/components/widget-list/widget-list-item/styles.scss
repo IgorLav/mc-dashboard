@@ -1,10 +1,15 @@
 @import "../../../assets/scss/utils/variables";
 
 .widget-list-item {
+  display: flex;
   padding: 30px 30px 18px;
   min-height: 108px;
 
   &.border-bottom {
     border-bottom: 1px solid $border-color;
+  }
+
+  .thumb {
+    margin-right: 25px;
   }
 }

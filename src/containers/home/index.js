@@ -5,6 +5,9 @@ import WidgetListHeader from "../../components/widget-list/widget-list-header";
 import Pill from "../../components/ui-kit/pill";
 import WidgetListItem from "../../components/widget-list/widget-list-item";
 import Thumb from "../../components/ui-kit/thumb";
+import WidgetTasks from "../../components/widget-tasks";
+
+import data from "./data";
 
 class Home extends React.Component {
     render() {
@@ -29,18 +32,7 @@ class Home extends React.Component {
 
                     <div className="row">
                         <div className="col-lg-4">
-                            <WidgetList>
-                                <WidgetListHeader title="Tasks">
-                                    <div className="counters">
-                                        <Pill className="pill-primary">5</Pill>
-                                        <Pill className="pill-secondary">2</Pill>
-                                    </div>
-                                </WidgetListHeader>
-
-                                <WidgetListItem>
-                                    sadsda
-                                </WidgetListItem>
-                            </WidgetList>
+                            <WidgetTasks tasks={data.tasks}/>
                         </div>
 
                         <div className="col-lg-4">
@@ -53,6 +45,9 @@ class Home extends React.Component {
 
                                 <WidgetListItem>
                                      <Thumb />
+                                    <div>
+
+                                    </div>
                                 </WidgetListItem>
                             </WidgetList>
                         </div>
@@ -64,7 +59,7 @@ class Home extends React.Component {
                                 </WidgetListHeader>
 
                                 <WidgetListItem>
-                                    sadsadasd
+                                    <Thumb />
                                 </WidgetListItem>
                             </WidgetList>
                         </div>

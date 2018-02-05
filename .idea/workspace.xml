@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="create g">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/scss/grid/_grid.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/scss/grid/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/scss/grid/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/scss/grid/main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/greeting/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/greeting/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/widget-list/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/widget-list/widget-list-header/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/widget-list/widget-list-header/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/home/index.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/_typography.scss" afterPath="$PROJECT_DIR$/src/assets/scss/utils/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/pill/styles.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/pill/styles.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/widget-list/index.js" afterPath="$PROJECT_DIR$/src/components/widget-list/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/layout/app-layout/index.js" afterPath="$PROJECT_DIR$/src/layout/app-layout/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/layout/app-layout/styles.scss" afterPath="$PROJECT_DIR$/src/layout/app-layout/styles.scss" />
+    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="add css grid, create basic markup for widget-list component">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/widget-tasks/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/home/data.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/merkury.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" afterPath="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" afterPath="$PROJECT_DIR$/src/containers/home/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/layout/auth-route/styles.scss" afterPath="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/app-layout/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,14 +40,58 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/auth-route/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="153">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#779#876#0" expanded="false" />
+                <element signature="e#988#1086#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/widget-tasks/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/home/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,8 +102,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,13 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ui-kit/input/input.scss" />
-        <option value="$PROJECT_DIR$/src/components/ui-kit/btn/btn.js" />
-        <option value="$PROJECT_DIR$/src/components/ui-kit/input/index.js" />
-        <option value="$PROJECT_DIR$/src/components/ui-kit/btn/btn-link.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/components/form/form.scss" />
-        <option value="$PROJECT_DIR$/src/components/ui-kit/btn/btn.scss" />
-        <option value="$PROJECT_DIR$/src/containers/sign-in/index.js" />
         <option value="$PROJECT_DIR$/src/containers/sign-up/index.js" />
         <option value="$PROJECT_DIR$/src/routes/auth-route/auth-route.scss" />
         <option value="$PROJECT_DIR$/src/routes/app-route/index.js" />
@@ -105,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/assets/scss/utils/_gunctions.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/utils/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/pill/inde.js" />
-        <option value="$PROJECT_DIR$/src/components/ui-kit/index.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/utils/_bg.scss" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/pill/index.js" />
         <option value="$PROJECT_DIR$/src/assets/font-icons/css/fontello.css" />
@@ -126,10 +158,18 @@
         <option value="$PROJECT_DIR$/src/assets/scss/utils/_typography.scss" />
         <option value="$PROJECT_DIR$/src/components/widget-list/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/widget-list/widget-list-header/styles.scss" />
-        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/components/widget-list/index.js" />
         <option value="$PROJECT_DIR$/src/components/widget-list/widget-list-header/index.js" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/pill/styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/widget-list/widget-list-item/index.js" />
+        <option value="$PROJECT_DIR$/src/components/ui-kit/index.js" />
+        <option value="$PROJECT_DIR$/src/components/ui-kit/thumb/index.js" />
+        <option value="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" />
+        <option value="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
+        <option value="$PROJECT_DIR$/src/containers/home/data.json" />
+        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
+        <option value="$PROJECT_DIR$/src/components/widget-tasks/index.js" />
+        <option value="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" />
       </list>
     </option>
   </component>
@@ -220,21 +260,6 @@
               <item name="merkury" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-kit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-kit" type="462c0819:PsiDirectoryNode" />
-              <item name="pill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="widget-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +268,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="widget-list" type="462c0819:PsiDirectoryNode" />
-              <item name="widget-list-header" type="462c0819:PsiDirectoryNode" />
+              <item name="widget-list-item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
@@ -264,13 +289,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="app-layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -286,6 +304,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Hi-Tech/Desktop/react/merkury/src/components/widget-list/widget-list-item/styles.scss" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -331,7 +350,7 @@
       <workItem from="1517405367955" duration="932000" />
       <workItem from="1517421038280" duration="27601000" />
       <workItem from="1517561846880" duration="14662000" />
-      <workItem from="1517817781027" duration="11109000" />
+      <workItem from="1517817781027" duration="18057000" />
     </task>
     <task id="LOCAL-00001" summary="add basic icon font, add styles to UI components, add style to auth page">
       <created>1517487537478</created>
@@ -382,11 +401,25 @@
       <option name="project" value="LOCAL" />
       <updated>1517823789935</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add css grid, create basic markup for widget-list component">
+      <created>1517834540318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517834540318</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add thumb component to ui kit, added styles to widget component">
+      <created>1517839458016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517839458016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54304000" />
+    <option name="totallyTimeSpent" value="61252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -426,57 +459,15 @@
     <MESSAGE value="add header component, add expand search component" />
     <MESSAGE value="add toggle handler to expandsearch" />
     <MESSAGE value="add idea folter to .gitignore, add css to pills" />
-    <option name="LAST_COMMIT_MESSAGE" value="add idea folter to .gitignore, add css to pills" />
+    <MESSAGE value="add css grid, create basic markup for widget-list component" />
+    <MESSAGE value="add thumb component to ui kit, added styles to widget component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thumb component to ui kit, added styles to widget component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/btn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/input/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/btn/btn-link.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/form/form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/sign-in/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -488,14 +479,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/auth-route/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,13 +583,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/utils/_bg.scss" />
-    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/utils/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -654,16 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/greeting/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -694,14 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -770,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-header/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -793,7 +744,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -806,16 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widget-list/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ui-kit/pill/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -824,13 +765,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget-list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/thumb/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="94" lean-forward="false" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/app-layout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#779#876#0" expanded="false" />
+            <element signature="e#988#1086#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/auth-route/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget-tasks/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
