@@ -12,7 +12,7 @@ const Header = (props) => (
                 <i className="icon icon-menu"/>
             </button>
 
-            <ExpandSearch/>
+            <ExpandSearch searchToggle={props.searchToggle} open={props.searchOpen} />
         </div>
 
         <div className="header-bar right-bar">
