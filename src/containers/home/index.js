@@ -3,6 +3,8 @@ import Greeting from "../../components/greeting";
 import WidgetList from "../../components/widget-list";
 import WidgetListHeader from "../../components/widget-list/widget-list-header";
 import Pill from "../../components/ui-kit/pill";
+import WidgetListItem from "../../components/widget-list/widget-list-item";
+import Thumb from "../../components/ui-kit/thumb";
 
 class Home extends React.Component {
     render() {
@@ -13,11 +15,15 @@ class Home extends React.Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-5">
-                            Sales
+                            <div className="widget">
+                                Sales
+                            </div>
                         </div>
 
                         <div className="col-lg-7">
-                            Report
+                            <div className="widget">
+                                Report
+                            </div>
                         </div>
                     </div>
 
@@ -30,9 +36,10 @@ class Home extends React.Component {
                                         <Pill className="pill-secondary">2</Pill>
                                     </div>
                                 </WidgetListHeader>
-                                <div className="widget-list-item">
-                                    sadsadasd
-                                </div>
+
+                                <WidgetListItem>
+                                    sadsda
+                                </WidgetListItem>
                             </WidgetList>
                         </div>
 
@@ -44,9 +51,9 @@ class Home extends React.Component {
                                     </div>
                                 </WidgetListHeader>
 
-                                <div className="widget-list-item">
-                                    sadsadasd
-                                </div>
+                                <WidgetListItem>
+                                     <Thumb />
+                                </WidgetListItem>
                             </WidgetList>
                         </div>
 
@@ -56,9 +63,9 @@ class Home extends React.Component {
                                     <Pill className="pill-primary">13</Pill>
                                 </WidgetListHeader>
 
-                                <div className="widget-list-item">
+                                <WidgetListItem>
                                     sadsadasd
-                                </div>
+                                </WidgetListItem>
                             </WidgetList>
                         </div>
                     </div>
