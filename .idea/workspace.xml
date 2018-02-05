@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="add css grid, create basic markup for widget-list component">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/widget-tasks/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/home/data.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/merkury.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" afterPath="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" afterPath="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" afterPath="$PROJECT_DIR$/src/containers/home/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/layout/auth-route/styles.scss" afterPath="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
+    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/data.json" afterPath="$PROJECT_DIR$/src/containers/home/data.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,21 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/home/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="774">
+              <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -166,10 +145,10 @@
         <option value="$PROJECT_DIR$/src/components/ui-kit/thumb/index.js" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/thumb/styles.scss" />
         <option value="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
-        <option value="$PROJECT_DIR$/src/containers/home/data.json" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/components/widget-tasks/index.js" />
         <option value="$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss" />
+        <option value="$PROJECT_DIR$/src/containers/home/data.json" />
       </list>
     </option>
   </component>
@@ -259,34 +238,6 @@
               <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
               <item name="merkury" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="widget-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="widget-list" type="462c0819:PsiDirectoryNode" />
-              <item name="widget-list-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -350,7 +301,7 @@
       <workItem from="1517405367955" duration="932000" />
       <workItem from="1517421038280" duration="27601000" />
       <workItem from="1517561846880" duration="14662000" />
-      <workItem from="1517817781027" duration="18057000" />
+      <workItem from="1517817781027" duration="19541000" />
     </task>
     <task id="LOCAL-00001" summary="add basic icon font, add styles to UI components, add style to auth page">
       <created>1517487537478</created>
@@ -415,17 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517839458016</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add mock data for tasks widget, display mock data">
+      <created>1517841848535</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517841848535</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61252000" />
+    <option name="totallyTimeSpent" value="62736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -461,7 +418,8 @@
     <MESSAGE value="add idea folter to .gitignore, add css to pills" />
     <MESSAGE value="add css grid, create basic markup for widget-list component" />
     <MESSAGE value="add thumb component to ui kit, added styles to widget component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thumb component to ui kit, added styles to widget component" />
+    <MESSAGE value="add mock data for tasks widget, display mock data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mock data for tasks widget, display mock data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,14 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -796,7 +746,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="94" lean-forward="false" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="94" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -827,26 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#779#876#0" expanded="false" />
-            <element signature="e#988#1086#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/auth-route/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -865,6 +795,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/widget-tasks/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -875,10 +821,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widget-list/widget-list-item/styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#779#876#0" expanded="false" />
+            <element signature="e#988#1086#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding />
         </state>
       </provider>

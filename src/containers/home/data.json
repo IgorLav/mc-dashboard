@@ -25,6 +25,33 @@
 
   ],
   "activity": [
-
+    {
+      "id": 1,
+      "user": "Nina Jones",
+      "activity": "added a new project",
+      "subject": "Free UI Kit",
+      "time": "Just now"
+    },
+    {
+      "id": 2,
+      "user": "James Smith",
+      "activity": "commented project ",
+      "subject": "Free PSD Template",
+      "time": "40 minutes ago"
+    },
+    {
+      "id": 3,
+      "user": "Alex Clooney",
+      "activity": "completed task",
+      "subject": "Symu Website",
+      "time": "1 hour ago"
+    },
+    {
+      "id": 4,
+      "user": "Alexandra Spears",
+      "activity": "added a new project",
+      "subject": "Free PSD",
+      "time": "3 hours ago"
+    }
   ]
 }
