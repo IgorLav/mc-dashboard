@@ -2,6 +2,7 @@
 
 .thumb {
   display: flex;
+  flex-shrink: 0;
   width: 47px;
   height: 47px;
   justify-content: center;

@@ -4,6 +4,7 @@ import WidgetListHeader from "../widget-list/widget-list-header";
 import WidgetListItem from "../widget-list/widget-list-item";
 import Thumb from "../ui-kit/thumb";
 import Pill from "../ui-kit/pill";
+import OptionsMenu from "../ui-kit/options-menu";
 
 const renderItems = (tasks) => (
     tasks.map(task => (
@@ -13,6 +14,9 @@ const renderItems = (tasks) => (
                 <h5 className="">{task.title}</h5>
                 <p>{task.status}</p>
             </div>
+            <OptionsMenu>
+
+            </OptionsMenu>
         </WidgetListItem>
     ))
 );

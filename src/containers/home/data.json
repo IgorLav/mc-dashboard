@@ -22,6 +22,30 @@
     }
   ],
   "messages": [
+    {
+      "id": 1,
+      "user": "Nina Jones",
+      "message": "Hey You! It’s me again :-) I attached new (...)",
+      "time": "5 minutes ago"
+    },
+    {
+      "id": 2,
+      "user": "James Smith",
+      "message": "Good morning! How are you?",
+      "time": "15 minutes ago"
+    },
+    {
+      "id": 3,
+      "user": "Nina Jones",
+      "message": "Hey! I attached some new PSD files for",
+      "time": "About 20 hours ago"
+    },
+    {
+      "id": 4,
+      "user": "Nina Jones",
+      "message": "Hey You! It’s me again :-) I attached new (...)",
+      "time": "2 days ago"
+    }
   ],
   "activities": [
     {
