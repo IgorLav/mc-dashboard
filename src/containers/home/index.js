@@ -6,6 +6,7 @@ import Pill from "../../components/ui-kit/pill";
 import WidgetListItem from "../../components/widget-list/widget-list-item";
 import Thumb from "../../components/ui-kit/thumb";
 import WidgetTasks from "../../components/widget-tasks";
+import WidgetActivity from "../../components/widget-activity";
 
 import data from "./data";
 
@@ -53,15 +54,7 @@ class Home extends React.Component {
                         </div>
 
                         <div className="col-lg-4">
-                            <WidgetList>
-                                <WidgetListHeader title="Activity">
-                                    <Pill className="pill-primary">13</Pill>
-                                </WidgetListHeader>
-
-                                <WidgetListItem>
-                                    <Thumb />
-                                </WidgetListItem>
-                            </WidgetList>
+                            <WidgetActivity activities={data.activities}/>
                         </div>
                     </div>
                 </div>

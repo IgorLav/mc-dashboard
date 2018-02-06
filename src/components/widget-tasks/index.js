@@ -7,7 +7,7 @@ import Pill from "../ui-kit/pill";
 
 const renderItems = (tasks) => (
     tasks.map(task => (
-        <WidgetListItem borderBottom>
+        <WidgetListItem borderBottom key={task.id}>
             <Thumb />
             <div>
                 <h5 className="">{task.title}</h5>
@@ -28,5 +28,9 @@ const WidgetTasks = (props) => (
         {renderItems(props.tasks)}
     </WidgetList>
 );
+
+WidgetTasks.defaultProps = {
+    tasks: []
+};
 
 export default WidgetTasks;
