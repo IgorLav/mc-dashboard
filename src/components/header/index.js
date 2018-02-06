@@ -8,7 +8,9 @@ import ExpandSearch from "../expand-search";
 const Header = (props) => (
     <header className="header">
         <div className="header-bar left-bar">
-            <button className="burger-btn active">
+            <button className={`burger-btn ${props.sidebarOpen ? 'active' : ''}`}
+                    onClick={(e)=> props.sidebarToggle(e)}
+            >
                 <i className="icon icon-menu"/>
             </button>
 

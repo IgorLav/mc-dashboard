@@ -7,6 +7,7 @@ import Home from "../../containers/home";
 class AppLayout extends React.Component {
     state = {
         searchOpen: false,
+        sidebarOpen: true
     };
 
     searchToggle = (e) => {
@@ -16,16 +17,27 @@ class AppLayout extends React.Component {
         }));
     };
 
+    sidebarToggle = (e) => {
+        e.preventDefault();
+        this.setState((prevState) => ({
+            sidebarOpen: !prevState.sidebarOpen
+        }));
+    };
+
     render() {
         return (
             <div className="app-layout">
-                <Drawer/>
+                <Drawer sidebarOpen={this.state.sidebarOpen}/>
 
                 <div className="app-page-wrap">
-                    <Header searchToggle={this.searchToggle} searchOpen={this.state.searchOpen}/>
+                    <Header searchToggle={this.searchToggle}
+                            searchOpen={this.state.searchOpen}
+                            sidebarOpen={this.state.sidebarOpen}
+                            sidebarToggle={this.sidebarToggle}
+                    />
 
                     <div className="app-page">
-                        <Home />
+                        <Home/>
                     </div>
                 </div>
             </div>

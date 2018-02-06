@@ -8,12 +8,15 @@
   border-bottom: 1px solid $border-color;
 
   .burger-btn {
-    display: inline-flex;
-    align-items: center;
+    position: relative;
 
     &.active {
       &:before {
-        margin-right: 7px;
+        position: absolute;
+        top: 50%;
+        left: -7px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
         @include triangle(left, $primary-color, 6px);
       }
     }

@@ -4,7 +4,7 @@ import Nav from '../nav';
 import './styles.scss';
 
 const Drawer = (props) => (
-    <div className="drawer">
+    <div className={`drawer ${props.sidebarOpen ? 'active' : '' } `}>
         <Logo/>
         <Nav/>
     </div>

@@ -1,6 +1,6 @@
 @import "../../assets/scss/utils/variables";
 
-.app-layout{
+.app-layout {
   display: flex;
   background-color: $app-layout-bg;
   min-height: 100vh;
@@ -9,11 +9,11 @@
     margin-bottom: 40px;
   }
 
-  .app-page{
-    padding: 0 40px 40px;
+  .app-page-wrap {
+    flex-grow: 1;
+  }
 
-    &-wrap {
-      flex-grow: 1;
-    }
+  .app-page {
+    padding: 0 40px 40px;
   }
 }
