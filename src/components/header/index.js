@@ -18,7 +18,7 @@ const Header = (props) => (
         </div>
 
         <div className="header-bar right-bar">
-            <Link className="btn btn-primary btn-sm" to="/new-project">Add project</Link>
+            <Link className="btn btn-primary btn-sm" to="/app/new-project">Add project</Link>
 
             <button className="msg-btn">
                 <i className="icon icon-mail-alt"/>

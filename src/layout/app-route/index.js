@@ -28,23 +28,23 @@ class AppRouteLayout extends React.Component {
         const Component = this.props.component;
 
         return (
-            <div className="app-layout">
-                <Drawer sidebarOpen={this.state.sidebarOpen}/>
+            <Route path={this.props.path} exact={this.props.exact} render={() => (
+                <div className="app-layout">
+                    <Drawer sidebarOpen={this.state.sidebarOpen}/>
 
-                <div className="app-page-wrap">
-                    <Header searchToggle={this.searchToggle}
-                            searchOpen={this.state.searchOpen}
-                            sidebarOpen={this.state.sidebarOpen}
-                            sidebarToggle={this.sidebarToggle}
-                    />
+                    <div className="app-page-wrap">
+                        <Header searchToggle={this.searchToggle}
+                                searchOpen={this.state.searchOpen}
+                                sidebarOpen={this.state.sidebarOpen}
+                                sidebarToggle={this.sidebarToggle}
+                        />
 
-                    <div className="app-page">
-                        <Route path={this.props.path} exact={this.props.exact} render={() => {
-                            return <Component />
-                        }}/>
+                        <div className="app-page">
+                            <Component/>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}/>
         );
     }
 }
