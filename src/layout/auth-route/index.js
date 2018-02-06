@@ -4,7 +4,7 @@ import Logo from '../../components/logo/index';
 import bg from '../../assets/img/auth-bg.jpg';
 import './styles.scss';
 
-const authRoute = ({component: Component, ...rest}) => (
+const AuthRoute = ({component: Component, ...rest}) => (
     <Route {...rest} render={() => (
         <div className="auth-layout" style={{backgroundImage: `url(${bg})`}}>
             <div className="auth-form-wrap">
@@ -24,4 +24,4 @@ const authRoute = ({component: Component, ...rest}) => (
     )} exact/>
 );
 
-export default authRoute;
+export default AuthRoute;

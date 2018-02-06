@@ -1,10 +1,10 @@
 import React from 'react';
 import Drawer from '../../components/drawer';
 import Header from '../../components/header';
+import {Route} from "react-router-dom";
 import './styles.scss';
-import Home from "../../containers/home";
 
-class AppLayout extends React.Component {
+class AppRouteLayout extends React.Component {
     state = {
         searchOpen: false,
         sidebarOpen: true
@@ -25,6 +25,8 @@ class AppLayout extends React.Component {
     };
 
     render() {
+        const Component = this.props.component;
+
         return (
             <div className="app-layout">
                 <Drawer sidebarOpen={this.state.sidebarOpen}/>
@@ -37,7 +39,9 @@ class AppLayout extends React.Component {
                     />
 
                     <div className="app-page">
-                        <Home/>
+                        <Route path={this.props.path} exact={this.props.exact} render={() => {
+                            return <Component />
+                        }}/>
                     </div>
                 </div>
             </div>
@@ -45,4 +49,4 @@ class AppLayout extends React.Component {
     }
 }
 
-export default AppLayout;
+export default AppRouteLayout;
