@@ -22,8 +22,8 @@ const renderItems = (messages) => (
 
 const WidgetMessages = (props) => (
     <WidgetList>
-        <WidgetListHeader title="Activities">
-            <Pill className="pill-primary">13</Pill>
+        <WidgetListHeader title="Messages">
+            <Pill className="pill-primary">4</Pill>
         </WidgetListHeader>
 
         {renderItems(props.messages)}

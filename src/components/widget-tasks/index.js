@@ -5,15 +5,18 @@ import WidgetListItem from "../widget-list/widget-list-item";
 import Thumb from "../ui-kit/thumb";
 import Pill from "../ui-kit/pill";
 import OptionsMenu from "../ui-kit/options-menu";
+import './styles.scss';
 
 const renderItems = (tasks) => (
     tasks.map(task => (
-        <WidgetListItem borderBottom key={task.id}>
+        <WidgetListItem className="widget-tasks" borderBottom key={task.id}>
             <Thumb />
+
             <div>
                 <h5 className="">{task.title}</h5>
                 <p>{task.status}</p>
             </div>
+
             <OptionsMenu>
 
             </OptionsMenu>
