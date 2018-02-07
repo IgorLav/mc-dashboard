@@ -1,5 +1,7 @@
 @import "../../assets/scss/utils/variables";
 
+$drawer-width: 250px;
+
 .drawer{
   width: 0;
   background-color: $primary-dark-bg;
@@ -9,10 +11,16 @@
 
   &.active {
     flex-shrink: 0;
-    width: 320px;
+    width: $drawer-width;
   }
 
   .logo {
     margin: 0 0 30px 40px;
+    width: 140px;
+  }
+
+  .main-nav-link {
+    width: $drawer-width;
+    white-space: nowrap;
   }
 }
