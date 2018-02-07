@@ -24,4 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   &-primary {
     color: $primary-color;
   }
+
+  &-plain {
+    color: $plain-color;
+  }
+
+  &-success {
+    color: $success-color;
+  }
 }

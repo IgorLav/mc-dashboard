@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.scss';
 
 const OptionsMenu = (props) => (
-    <div className={`options-menu ${props.className}`}>
+    <div className={`options-menu ${props.className ? props.className : ''}`}>
         <button className="options-btn">
             <span className="dot"/>
         </button>

@@ -5,7 +5,7 @@
   background-color: $primary-dark-bg;
   padding: 30px 0;
   overflow: hidden;
-  transition: width .35s;
+  transition: .35s;
 
   &.active {
     flex-shrink: 0;

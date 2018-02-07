@@ -3,32 +3,32 @@
     {
       "name":"Home",
       "path": "/app/home",
-      "icon": ""
+      "icon": "home"
     },
     {
       "name":"Workflow",
       "path": "/app/workflow",
-      "icon": ""
+      "icon": "workflow"
     },
     {
       "name":"Statistic",
       "path": "/app/statistic",
-      "icon": ""
+      "icon": "line-chart"
     },
     {
       "name":"Calendar",
       "path": "/app/calendar",
-      "icon": ""
+      "icon": "calendar"
     },
     {
       "name":"Users",
       "path": "/app/users",
-      "icon": ""
+      "icon": "user"
     },
     {
       "name":"Settings",
       "path": "/app/settings",
-      "icon": ""
+      "icon": "gear-o"
     }
   ]
 }

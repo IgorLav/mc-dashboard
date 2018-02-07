@@ -1,3 +1,44 @@
 {
-
+  "users": [
+    {
+      "id": 0,
+      "name": "John",
+      "lastname": "Doe",
+      "email": "johndoe@design.com",
+      "phone":"(000) 111 222 333",
+      "position": "CEO"
+    },
+    {
+      "id": 1,
+      "name": "Nina",
+      "lastname": "Jones",
+      "email": "ninajones@design.com",
+      "phone":"(000) 111 222 333",
+      "position": "UX Designer"
+    },
+    {
+      "id": 2,
+      "name": "Alex",
+      "lastname": "Smith",
+      "email": "alexsmith@design.com",
+      "phone":"(000) 111 222 333",
+      "position": "Web Designer"
+    },
+    {
+      "id": 3,
+      "name": "Ann",
+      "lastname": "Clooney",
+      "email": "annclooney@design.com",
+      "phone":"(000) 111 222 333",
+      "position": "Account Manager"
+    },
+    {
+      "id": 4,
+      "name": "Patric",
+      "lastname": "Smith",
+      "email": "patricksmith@design.com",
+      "phone":"(000) 111 222 333",
+      "position": "Project Manager"
+    }
+  ]
 }

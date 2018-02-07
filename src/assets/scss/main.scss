@@ -1,6 +1,6 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./utils/typography";
+@import "base/typography";
 
 @import "./grid/main";
 @import "./components/form/form.scss";

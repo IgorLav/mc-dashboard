@@ -1,6 +1,8 @@
 @import "../../../assets/scss/utils/variables";
 
 .options-menu {
+  display: inline-flex;
+
   .options-btn {
     display: flex;
     height: 33px;
