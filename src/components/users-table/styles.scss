@@ -5,14 +5,19 @@
   table-layout: fixed;
 
   td {
-    font-size: 14px;
+    font-size: 12px;
     padding: 15px;
     border-color: $input-border-color;
     background-color: #fff;
+
+    a {
+      font-weight: 700;
+    }
   }
 
   thead {
     td {
+      font-size: 14px;
       border: none;
       background-color: transparent;
       padding: 15px 15px;
@@ -20,7 +25,8 @@
   }
 
   .basic-info-cell {
-    width: 35%;
+    width: 30%;
+    font-size: 14px;
 
     .text {
       overflow: hidden;

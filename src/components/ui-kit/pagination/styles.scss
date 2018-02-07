@@ -1,0 +1,43 @@
+@import "../../../assets/scss/utils/variables";
+
+.pagination  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-item {
+    display: flex;
+    height: 40px;
+    min-width: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+
+    -webkit-transition: .35s;
+    transition: .35s;
+
+    &:not(.pager) {
+      border: 1px solid $pagination-border;
+      background-color: #fff;
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: $primary-color;
+    }
+
+    &.dots {
+      user-select: none;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+
+
+}
