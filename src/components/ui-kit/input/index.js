@@ -8,7 +8,7 @@ const input = (props) => {
 
             <input className="input-style"
                    type={props.type}
-                   onChange={props.inputHandler}
+                   onChange={props.onChange}
                    value={props.value}
                    placeholder={props.placeholder}
             />

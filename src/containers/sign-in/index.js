@@ -1,7 +1,58 @@
 import React from 'react';
 import {Input, Button} from '../../components/ui-kit';
+import validate from "../../utils/validate";
 
 class SignIn extends React.Component {
+    state = {
+        controls: {
+            email: {
+                value: "",
+                validation: {
+                    required: true,
+                },
+                valid: false,
+                touched: false
+            },
+            password: {
+                value: "",
+                validation: {
+                    required: true,
+                },
+                valid: false,
+                touched: false
+            }
+        },
+        formIsValid: false
+    };
+
+    inputHandler = (e, id) => {
+        const updateFormInfo = {
+            ...this.state.controls
+        };
+
+        const value = e.target.value;
+
+        updateFormInfo[id] = {
+            ...updateFormInfo[id],
+            value: value,
+            valid: validate(value, updateFormInfo[id].validation),
+            touched: true
+        };
+
+        let formIsValid = true;
+
+        for (let control in updateFormInfo) {
+            if (updateFormInfo[control].validation) {
+                formIsValid = updateFormInfo[control].valid && formIsValid
+            }
+        }
+
+        this.setState({
+            controls: updateFormInfo,
+            formIsValid
+        })
+    };
+
     render() {
         return (
             <form action="" className="form">
@@ -9,15 +60,23 @@ class SignIn extends React.Component {
 
                 <ul className="controls-list">
                     <li className="controls-list-item">
-                        <Input value={''} icon="user" placeholder="Username"/>
+                        <Input value={this.state.controls.email.value}
+                               icon="user"
+                               onChange={(e) => this.inputHandler(e, 'email')}
+                               placeholder="Email"
+                        />
                     </li>
                     <li className="controls-list-item">
-                        <Input value={''} icon="lock" placeholder="Password"/>
+                        <Input value={this.state.controls.password.value}
+                               icon="lock"
+                               onChange={(e) => this.inputHandler(e, 'password')}
+                               placeholder="Password"
+                        />
                     </li>
                 </ul>
 
                 <footer className="text-center">
-                    <Button className="btn-lg btn-submit btn-primary">
+                    <Button className="btn-lg btn-submit btn-primary" disabled={!this.state.formIsValid}>
                         Sign In <i className="icon icon-right"/>
                     </Button>
                 </footer>

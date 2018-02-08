@@ -30,6 +30,10 @@
     &:hover {
       background-color: darken($primary-bg, 15%);
     }
+
+    &[disabled] {
+      background-color: lighten($primary-bg, 15%);
+    }
   }
 
   &.btn-lg {
@@ -41,5 +45,9 @@
     border-radius: 24px;
     font-size: 18px;
     padding: 12px 30px;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
   }
 }
