@@ -9,6 +9,7 @@ import Statistic from "./containers/statistic";
 import Calendar from "./containers/calendar";
 import Users from "./containers/users";
 import Settings from "./containers/settings";
+import Logout from "./containers/logout";
 
 import './assets/font-icons/css/fontello.css';
 import './assets/scss/main.scss';
@@ -18,6 +19,7 @@ import CreateProject from "./components/create-project";
 const app = (props) => {
     return (
         <div>
+            <AuthRoute path='/logout' component={Logout} exact/>
             <AuthRoute path='/sign-in' component={SignIn} exact/>
             <AuthRoute path='/sign-up' component={SignUp} exact/>
             <AppRouteLayout path='/app/home' component={Home} exact/>

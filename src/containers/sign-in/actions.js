@@ -17,7 +17,6 @@ export const signInError = (err) => ({
 });
 
 export const signIn = ({email, password}, history) => {
-    console.log(email);
     return dispatch => {
         dispatch(signInStart());
 
