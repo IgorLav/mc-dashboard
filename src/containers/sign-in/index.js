@@ -54,20 +54,21 @@ class SignIn extends React.Component {
     };
 
     render() {
+        const controls = this.state.controls;
         return (
             <form action="" className="form">
                 <h1 className="main-title text-center">Welcome <span className="text-primary">back!</span></h1>
 
                 <ul className="controls-list">
                     <li className="controls-list-item">
-                        <Input value={this.state.controls.email.value}
+                        <Input value={controls.email.value}
                                icon="user"
                                onChange={(e) => this.inputHandler(e, 'email')}
                                placeholder="Email"
                         />
                     </li>
                     <li className="controls-list-item">
-                        <Input value={this.state.controls.password.value}
+                        <Input value={controls.password.value}
                                icon="lock"
                                onChange={(e) => this.inputHandler(e, 'password')}
                                placeholder="Password"
