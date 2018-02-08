@@ -1,6 +1,8 @@
 import React from 'react';
 import {Input, Button} from '../../components/ui-kit';
 import validate from "../../utils/validate";
+import firebase from "../../firebase-module";
+import {withRouter} from "react-router-dom";
 
 class SignIn extends React.Component {
     state = {
@@ -53,10 +55,16 @@ class SignIn extends React.Component {
         })
     };
 
+    onSubmit = (e) => {
+        e.preventDefault();
+        const state = this.state;
+
+    };
+
     render() {
         const controls = this.state.controls;
         return (
-            <form action="" className="form">
+            <form onSubmit={e => this.onSubmit(e)} className="form">
                 <h1 className="main-title text-center">Welcome <span className="text-primary">back!</span></h1>
 
                 <ul className="controls-list">
@@ -86,4 +94,4 @@ class SignIn extends React.Component {
     }
 }
 
-export default SignIn;
+export default withRouter(SignIn);
