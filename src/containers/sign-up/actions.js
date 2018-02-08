@@ -16,7 +16,7 @@ export const signUpError = (err) => ({
     error: err
 });
 
-export const signUp = ({firstName, lastName, email, phone, password}) => {
+export const signUp = ({firstName, lastName, email, phone, password}, history ) => {
     return dispatch => {
         dispatch(signUpStart());
 
@@ -29,6 +29,7 @@ export const signUp = ({firstName, lastName, email, phone, password}) => {
                     phone
                 });
                 dispatch(signUpSuccess());
+                history.push("/app/home")
             })
             .catch(err => {
                 dispatch(signUpError(err.message));

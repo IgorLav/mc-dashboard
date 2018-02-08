@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-up/actionTypes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-up/actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-up/reducers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/firebase-module.js" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="create signup flow using firebse and redux">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-in/actionTypes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-in/actions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/sign-in/reducer.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/containers/sign-in/index.js" afterPath="$PROJECT_DIR$/src/containers/sign-in/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/sign-up/actionTypes.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/actionTypes.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/sign-up/actions.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/actions.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/sign-up/index.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/sign-up/reducers.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/reducer.js" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,36 +38,61 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/sign-in/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="148" column="41" lean-forward="false" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+            <state relative-caret-position="119">
+              <caret line="72" column="4" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="81" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#301#1420#0" expanded="false" />
+                <element signature="e#308#793#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/sign-in/index.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="157">
+              <caret line="88" column="56" lean-forward="true" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#311#1430#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reducers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/sign-up/reducers.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/sign-in/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/sign-in/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +100,8 @@
       <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/sign-up/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="259">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -106,6 +131,7 @@
       <find>baseUrl</find>
       <find>auth</find>
       <find>AUTH</find>
+      <find>SIGNUP</find>
     </findStrings>
     <replaceStrings>
       <replace>position</replace>
@@ -113,6 +139,7 @@
       <replace>basePath</replace>
       <replace>signUp</replace>
       <replace>SIGNUP</replace>
+      <replace>SIGNIN</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -126,10 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/drawer/index.js" />
-        <option value="$PROJECT_DIR$/src/layout/app-layout/styles.scss" />
-        <option value="$PROJECT_DIR$/src/layout/auth-route/index.js" />
-        <option value="$PROJECT_DIR$/src/layout/app-layout/index.js" />
         <option value="$PROJECT_DIR$/src/layout/app-route/index.js" />
         <option value="$PROJECT_DIR$/src/containers/workflow/data.json" />
         <option value="$PROJECT_DIR$/src/containers/statistics/index.js" />
@@ -171,12 +194,16 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/firebase-module.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/sign-up/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/containers/sign-up/reducers.js" />
-        <option value="$PROJECT_DIR$/src/containers/sign-up/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-in/actionType.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-in/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-up/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-in/reducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-in/actions.js" />
         <option value="$PROJECT_DIR$/src/containers/sign-up/actions.js" />
         <option value="$PROJECT_DIR$/src/containers/sign-in/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/sign-up/index.js" />
       </list>
     </option>
   </component>
@@ -235,6 +262,13 @@
               <item name="merkury" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merkury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="sign-in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
@@ -316,7 +350,7 @@
       <workItem from="1517405367955" duration="932000" />
       <workItem from="1517421038280" duration="27601000" />
       <workItem from="1517561846880" duration="14662000" />
-      <workItem from="1517817781027" duration="73350000" />
+      <workItem from="1517817781027" duration="75933000" />
     </task>
     <task id="LOCAL-00001" summary="add basic icon font, add styles to UI components, add style to auth page">
       <created>1517487537478</created>
@@ -500,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518084007271</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="create signup flow using firebse and redux">
+      <created>1518103853210</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1518103853210</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116545000" />
+    <option name="totallyTimeSpent" value="119128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -537,7 +578,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rename own components stylesheet" />
     <MESSAGE value="create basic structure of drawer component" />
     <MESSAGE value="add styles to drawer nav" />
     <MESSAGE value="add header component, add expand search component" />
@@ -562,37 +602,14 @@
     <MESSAGE value="signIn inputs handler" />
     <MESSAGE value="signUp inputs handler" />
     <MESSAGE value="change basic styles for auth forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="change basic styles for auth forms" />
+    <MESSAGE value="create signup flow using firebse and redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="create signup flow using firebse and redux" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/settings/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/workflow/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/calendar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/statistic/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -940,24 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/auth-route/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -968,35 +967,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/sign-up/actionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-in/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="148" column="41" lean-forward="false" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#301#1420#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/reducers.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-in/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-85">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-in/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/sign-up/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="259">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -1005,10 +1039,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/sign-in/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="72" column="4" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="81" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#308#793#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="88" column="56" lean-forward="true" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#311#1430#0" expanded="false" />
           </folding>
         </state>
       </provider>

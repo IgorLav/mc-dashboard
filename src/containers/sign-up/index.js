@@ -3,8 +3,7 @@ import {Input, Button} from '../../components/ui-kit';
 import validate from "../../utils/validate";
 import {connect} from "react-redux";
 import * as actions from './actions';
-import firebase from '../../firebase-module';
-
+import withRouter from "react-router-dom/es/withRouter";
 
 class SignUp extends React.Component {
     state = {
@@ -81,6 +80,17 @@ class SignUp extends React.Component {
         })
     };
 
+    displaySubmitBtn = () => {
+        if (this.props.loading) {
+            return <Button className="btn-lg btn-submit btn-primary" disabled> Submitting... </Button>
+        }
+        return (
+            <Button className="btn-lg btn-submit btn-primary" disabled={!this.state.formIsValid}>
+                Sign In <i className="icon icon-right"/>
+            </Button>
+        );
+    };
+
     onSubmit = (e) => {
         e.preventDefault();
 
@@ -93,7 +103,8 @@ class SignUp extends React.Component {
                     email: state.controls.email.value,
                     phone: state.controls.phone.value,
                     password: state.controls.password.value,
-                }
+                },
+                this.props.history
             );
         }
     };
@@ -144,16 +155,7 @@ class SignUp extends React.Component {
                 </ul>
 
                 <footer className="text-center">
-                    {loading ? (
-                        <Button className='btn-lg btn-submit btn-primary' disabled>
-                            Submitting...
-                        </Button>
-                    ) : (
-                        <Button className='btn-lg btn-submit btn-primary' disabled={!this.state.formIsValid}
-                                type="submit">
-                            Sign Up <i className="icon icon-right"/>
-                        </Button>
-                    )}
+                    {this.displaySubmitBtn()}
                 </footer>
             </form>
         );
@@ -166,7 +168,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    onSignUp: (firstName, lastName, phone, email, password) => dispatch(actions.signUp(firstName, lastName, phone, email, password))
+    onSignUp: (userData, history) => dispatch(actions.signUp(userData, history))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignUp);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(SignUp));
