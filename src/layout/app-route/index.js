@@ -1,5 +1,5 @@
 import React from 'react';
-import Drawer from '../../components/drawer';
+import Drawer from '../../containers/drawer';
 import Header from '../../components/header';
 import {Route} from "react-router-dom";
 import './styles.scss';
@@ -7,7 +7,6 @@ import './styles.scss';
 class AppRouteLayout extends React.Component {
     state = {
         searchOpen: false,
-        sidebarOpen: true
     };
 
     searchToggle = (e) => {
@@ -17,26 +16,24 @@ class AppRouteLayout extends React.Component {
         }));
     };
 
-    sidebarToggle = (e) => {
-        e.preventDefault();
-        this.setState((prevState) => ({
-            sidebarOpen: !prevState.sidebarOpen
-        }));
+    drawerToggle = () => {
+        const { isDrawerOpen,closeDrawer,openDrawer } = this.props;
+        return isDrawerOpen ?  closeDrawer()  : openDrawer();
     };
 
     render() {
         const Component = this.props.component;
-
+console.log(this.props);
         return (
             <Route path={this.props.path} exact={this.props.exact} render={() => (
                 <div className="app-layout">
-                    <Drawer sidebarOpen={this.state.sidebarOpen}/>
+                    <Drawer isOpen={this.props.isDrawerOpen}/>
 
                     <div className="app-page-wrap">
                         <Header searchToggle={this.searchToggle}
                                 searchOpen={this.state.searchOpen}
-                                sidebarOpen={this.state.sidebarOpen}
-                                sidebarToggle={this.sidebarToggle}
+                                isDrawerOpen={this.props.isDrawerOpen}
+                                drawerToggle={this.drawerToggle}
                         />
 
                         <div className="app-page">
@@ -49,4 +46,4 @@ class AppRouteLayout extends React.Component {
     }
 }
 
-export default AppRouteLayout;
+export default  AppRouteLayout;

@@ -111,7 +111,6 @@ class SignUp extends React.Component {
 
     render() {
         const controls = this.state.controls;
-        const {loading} = this.props;
 
         return (
             <form action="" className="form" onSubmit={(e) => this.onSubmit(e)}>
