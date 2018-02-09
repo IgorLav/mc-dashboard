@@ -9,7 +9,7 @@ import Statistic from "./containers/statistic";
 import Calendar from "./containers/calendar";
 import Users from "./containers/users";
 import Settings from "./containers/settings";
-import Logout from "./containers/logout";
+import Logout from "./containers/settings";
 
 import './assets/font-icons/css/fontello.css';
 import './assets/scss/main.scss';

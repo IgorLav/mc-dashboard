@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d482c6a-3bfb-4ff2-913f-b9702f087e73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/drawer/actionTypes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/drawer/actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/drawer/reducer.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/drawer/index.js" afterPath="$PROJECT_DIR$/src/containers/drawer/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/drawer/styles.scss" afterPath="$PROJECT_DIR$/src/containers/drawer/styles.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" afterPath="$PROJECT_DIR$/src/components/header/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/sign-up/index.js" afterPath="$PROJECT_DIR$/src/containers/sign-up/index.js" />
       <change beforePath="$PROJECT_DIR$/src/layout/app-route/index.js" afterPath="$PROJECT_DIR$/src/layout/app-route/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +22,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/app-route/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="72">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,18 +50,6 @@
               <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="113" column="8" lean-forward="false" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-              <folding>
-                <element signature="e#311#1430#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -150,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/users-table/index.js" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/options-menu/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/ui-kit/options-menu/index.js" />
         <option value="$PROJECT_DIR$/src/components/users-table/user-table-row/index.js" />
@@ -187,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/containers/sign-in/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/containers/logout/index.js" />
         <option value="$PROJECT_DIR$/src/containers/logout/actions.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/layout/auth-route/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/drawer/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/components/drawer/actions.js" />
@@ -198,9 +178,11 @@
         <option value="$PROJECT_DIR$/src/containers/drawer/actions.js" />
         <option value="$PROJECT_DIR$/src/containers/drawer/reducer.js" />
         <option value="$PROJECT_DIR$/src/containers/drawer/index.js" />
-        <option value="$PROJECT_DIR$/src/layout/app-route/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/index.js" />
         <option value="$PROJECT_DIR$/src/containers/sign-up/index.js" />
+        <option value="$PROJECT_DIR$/src/layout/dashboard/index.js" />
+        <option value="$PROJECT_DIR$/src/layout/app-route/index.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
@@ -264,13 +246,6 @@
               <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
               <item name="merkury" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merkury" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,8 +266,14 @@
               <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
               <item name="merkury" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="sign-up" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merkury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merkury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="app-route" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,11 +301,11 @@
       <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\assets\font-icons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\layout\dashboard" />
       <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\containers" />
       <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\assets\scss" />
       <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\assets\scss\utils" />
       <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\assets\img\user-thumb" />
-      <recent name="C:\Users\Hi-Tech\Desktop\react\merkury\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,7 +336,7 @@
       <workItem from="1517405367955" duration="932000" />
       <workItem from="1517421038280" duration="27601000" />
       <workItem from="1517561846880" duration="14662000" />
-      <workItem from="1517817781027" duration="87844000" />
+      <workItem from="1517817781027" duration="92682000" />
     </task>
     <task id="LOCAL-00001" summary="add basic icon font, add styles to UI components, add style to auth page">
       <created>1517487537478</created>
@@ -567,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518160116019</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="change drawer handler using redux. Fix layout issue">
+      <created>1518174865884</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1518174865888</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131039000" />
+    <option name="totallyTimeSpent" value="135877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -604,7 +592,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add toggle handler to expandsearch" />
     <MESSAGE value="add idea folter to .gitignore, add css to pills" />
     <MESSAGE value="add css grid, create basic markup for widget-list component" />
     <MESSAGE value="add thumb component to ui kit, added styles to widget component" />
@@ -629,21 +616,14 @@
     <MESSAGE value="create signin flow using firebase and redux" />
     <MESSAGE value="create logout flow" />
     <MESSAGE value="auth layout bg fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth layout bg fix" />
+    <MESSAGE value="change drawer handler using redux. Fix layout issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="change drawer handler using redux. Fix layout issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users-table/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -1016,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/sign-in/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1052,12 +1022,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/app-route/index.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#311#1430#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1072,12 +1043,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/sign-up/index.js">
+    <entry file="file://$PROJECT_DIR$/src/layout/dashboard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="113" column="8" lean-forward="false" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/app-route/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <element signature="e#311#1430#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

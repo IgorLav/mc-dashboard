@@ -1,13 +1,26 @@
 import React from 'react';
 import Drawer from '../../containers/drawer';
 import Header from '../../components/header';
-import {Route} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import './styles.scss';
+import firebase from '../../firebase-module';
 
 class AppRouteLayout extends React.Component {
     state = {
         searchOpen: false,
     };
+
+    componentWillMount() {
+        firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+                console.log(user)
+                console.log(2222);
+            }
+            else {
+                return this.props.history.push('/sign-in')
+            }
+        });
+    }
 
     searchToggle = (e) => {
         e.preventDefault();
@@ -46,4 +59,4 @@ console.log(this.props);
     }
 }
 
-export default  AppRouteLayout;
+export default  withRouter(AppRouteLayout);

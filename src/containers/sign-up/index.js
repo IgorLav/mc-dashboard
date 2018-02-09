@@ -52,6 +52,7 @@ class SignUp extends React.Component {
         formIsValid: false
     };
 
+
     inputHandler = (e, id) => {
         const updateFormInfo = {
             ...this.state.controls
