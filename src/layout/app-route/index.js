@@ -12,11 +12,7 @@ class AppRouteLayout extends React.Component {
 
     componentWillMount() {
         firebase.auth().onAuthStateChanged((user) => {
-            if (user) {
-                console.log(user)
-                console.log(2222);
-            }
-            else {
+            if (!user) {
                 return this.props.history.push('/sign-in')
             }
         });
